@@ -1,24 +1,23 @@
 .banner-title{
     padding: 160px 383px 530px;
     text-align: center;
-}
-.new-year{
     color: #FFF;
     font-family: Merriweather;
     font-style: normal;
+}
+.new-year{ 
     font-size: 35px;
     font-weight: 400;
     line-height: 0px;
 }
 .party{
-    color: #FFF;
-    font-family: Merriweather;
-    font-style: normal;
     font-size: 72px;
     font-weight: 900;
 }
 .header{
     background-image: url('../resources/Banner\ Image.png');
+    background-blend-mode: multiply;
+    background-color: rgb(159, 151, 151);
     background-position: center;
     width: 1320px;
     height: 600px;
@@ -53,26 +52,11 @@
     height: 500px;
     flex-shrink: 0;
 }
-.midnight-party{
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 88px; 
-    letter-spacing: 7.04px;
-}
-.party-description{
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-}
 .party-section{
     display: flex;
     background-image: url('../resources/Vectorrr.png');
+    background-blend-mode: multiply;
+    background-color: #837e8b;
     background-position: center;
     width: 1320px;
     height: 600px;
@@ -82,6 +66,24 @@
 }
 .welcome{
     padding: 50px 100px 100px;
+}
+.midnight-party{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 10px;
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
 }
 .join-bttn{
     background-color: rgb(0, 0, 0);
@@ -100,31 +102,29 @@
     align-items: center;
     flex-shrink: 0;
 }
-.location{
-    color: #070211;
-    text-align: center;
-    justify-content: center;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    /* font-weight: 600; */
-    line-height: 50px;
-    text-transform: capitalize;
-}
-.color-red{
-    color: #F00;
-}
 .time-location{
     background-image: linear-gradient(188deg, rgba(192, 19, 19, 0.1)0%, rgba(228, 7, 7, 0) 100%);
     padding: 100px 215px 200px;
     margin: 120px 25%; 
 }
+.location{
+    color: #070211;
+    text-align: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 50px;
+}
+.color-red{
+    color: #F00;
+}
 .ano-bttn{
-    border-radius: 5px;
+    border-radius: 15px;
     background: #F00;
     color: #FFF;
     border-color: #FFF;
-    font-size: 25px;
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 }
@@ -137,7 +137,6 @@
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 5px;
 }
@@ -145,16 +144,13 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
     line-height: 10px;
-    text-transform: capitalize;
 }
 .offer-description{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px; 
 }
@@ -167,7 +163,6 @@
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 10px;
 }
@@ -175,8 +170,8 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
-    line-height: 40px; 
+    line-height: 30px; 
+    margin-bottom: 35px;
 }
 .logo-image{
     width: 140px;
