@@ -133,6 +133,9 @@
     margin: 120px 25%;
     justify-content: space-around;
 }
+.first-column{
+    padding-top: 60px;
+}
 .best-offer{
     color: #F00;
     font-family: Inter;
@@ -156,8 +159,9 @@
 }
 .second-column{
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+}
+.third-column{
+    padding-top: 50px;
 }
 .year{
     color: #F00;
@@ -178,64 +182,64 @@
     height: 140px;
     flex-shrink: 0;
 }
-.function-segment{
+.holiday-section{
     margin: 55px 25%;
-    text-align: center;
-    
+    text-align: center;   
 }
 .functional{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 5px;
-}
-.red-holiday{
-    color: #F00;
 }
 .holidays{
     color: #070211;
     font-family: Merriweather;
     font-size: 80px;
-    font-style: normal;
     font-weight: 900;
     line-height: 5px;
+}
+.red-holiday{
+    color: #F00;
 }
 .holiday-description{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500; 
     line-height: 32px;
 }
 .function-images{
-    margin: 55px 25%;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+
 }
 .pile-of-image{
     width: 700px;
     height: 500px;
     flex-shrink: 0;
+    margin-right: 0px;
     background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    /* background-size: 500px 200px; */
     background-position: bottom;
-    
 }
 .red-bar{
     width: 270px;
     height: 270px;
     flex-shrink: 0;
+    margin-left: 0px;
     background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
     background-position: right;
-    background-size: 1000px;
+    background-size: cover;
 }
 .products{
     margin: 120px 25%;
 }
-
 .gifts{
     color: #F00;
     font-family: Inter;
