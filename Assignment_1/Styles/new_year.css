@@ -305,6 +305,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px; 
+    padding-bottom: 30px;
 }
 .input-email{
     width: 550px;
@@ -313,7 +314,7 @@
     border-radius: 50px 0px 0px 50px;
     border-color: #FFF;
     background: #FFF;
-    text-align: left;
+    padding-left: 25px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 500;
@@ -333,4 +334,50 @@
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+.foot-part{
+    margin: 120px 25%;
+    background-color:  #070211;
+}
+.address{   
+    display: flex;
+    justify-content: space-around;  
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 10px; 
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.fa-solid{
+    padding-right: 10px;
+    line-height: 8px;
+}
+.hori-line{
+    padding-left: 250px;
+    padding-right: 250px;
+    width: 500px;
+    color: green;
+}
+.social-links{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.social-image{
+    margin-right: 15px;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    padding-right: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
